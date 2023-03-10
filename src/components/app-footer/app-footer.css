@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 16px;
+}
+
+::slotted(li) {
+  padding: 16px;
+}
